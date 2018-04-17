@@ -1,7 +1,7 @@
-﻿using ProjetoModeloDDD.Domain.Entities;
+﻿using CSharpModeloDDD.Domain.Entities;
 using System.Data.Entity.ModelConfiguration;
 
-namespace ProjetoModeloDDD.Infra.Data.EntityConfig
+namespace CSharpModeloDDD.Infra.Data.EntityConfig
 {
     public class ProdutoConfiguration : EntityTypeConfiguration<Produto>
     {

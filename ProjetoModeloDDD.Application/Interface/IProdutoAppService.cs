@@ -1,7 +1,7 @@
-﻿using ProjetoModeloDDD.Domain.Entities;
+﻿using CSharpModeloDDD.Domain.Entities;
 using System.Collections.Generic;
 
-namespace ProjetoModeloDDD.Application.Interface
+namespace CSharpModeloDDD.Application.Interface
 {
     public interface IProdutoAppService : IAppServiceBase<Produto>
     {

@@ -1,7 +1,7 @@
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(ProjetoModeloDDD.MVC.App_Start.NinjectWebCommon), "Start")]
-[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(ProjetoModeloDDD.MVC.App_Start.NinjectWebCommon), "Stop")]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(CSharpModeloDDD.MVC.App_Start.NinjectWebCommon), "Start")]
+[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(CSharpModeloDDD.MVC.App_Start.NinjectWebCommon), "Stop")]
 
-namespace ProjetoModeloDDD.MVC.App_Start
+namespace CSharpModeloDDD.MVC.App_Start
 {
     using Application;
     using Application.Interface;

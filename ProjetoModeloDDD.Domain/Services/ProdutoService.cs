@@ -1,9 +1,9 @@
-﻿using ProjetoModeloDDD.Domain.Entities;
-using ProjetoModeloDDD.Domain.Interfaces.Repositories;
-using ProjetoModeloDDD.Domain.Interfaces.Services;
+﻿using CSharpModeloDDD.Domain.Entities;
+using CSharpModeloDDD.Domain.Interfaces.Repositories;
+using CSharpModeloDDD.Domain.Interfaces.Services;
 using System.Collections.Generic;
 
-namespace ProjetoModeloDDD.Domain.Services
+namespace CSharpModeloDDD.Domain.Services
 {
     public class ProdutoService : ServiceBase<Produto>, IProdutoService
     {

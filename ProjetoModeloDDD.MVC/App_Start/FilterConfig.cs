@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace ProjetoModeloDDD.MVC
+namespace CSharpModeloDDD.MVC
 {
     public class FilterConfig
     {

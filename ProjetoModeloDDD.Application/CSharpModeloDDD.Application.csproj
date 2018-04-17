@@ -7,8 +7,8 @@
     <ProjectGuid>{04BB3549-5197-4106-992A-BBF275A138C6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProjetoModeloDDD.Application</RootNamespace>
-    <AssemblyName>ProjetoModeloDDD.Application</AssemblyName>
+    <RootNamespace>CSharpModeloDDD.Application</RootNamespace>
+    <AssemblyName>CSharpModeloDDD.Application</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>
@@ -52,9 +52,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ProjetoModeloDDD.Domain\ProjetoModeloDDD.Domain.csproj">
+    <ProjectReference Include="..\ProjetoModeloDDD.Domain\CSharpModeloDDD.Domain.csproj">
       <Project>{984cb356-b992-441e-bf81-a36d1b30add0}</Project>
-      <Name>ProjetoModeloDDD.Domain</Name>
+      <Name>CSharpModeloDDD.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

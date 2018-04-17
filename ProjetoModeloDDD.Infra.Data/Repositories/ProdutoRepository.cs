@@ -1,9 +1,9 @@
-﻿using ProjetoModeloDDD.Domain.Entities;
-using ProjetoModeloDDD.Domain.Interfaces.Repositories;
+﻿using CSharpModeloDDD.Domain.Entities;
+using CSharpModeloDDD.Domain.Interfaces.Repositories;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ProjetoModeloDDD.Infra.Data.Repositories
+namespace CSharpModeloDDD.Infra.Data.Repositories
 {
     public class ProdutoRepository : RepositoryBase<Produto>, IProdutoRepository
     {

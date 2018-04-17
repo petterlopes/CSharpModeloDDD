@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{E693A420-2778-47BF-984C-38074F3CE882}"
 EndProject
@@ -17,13 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CrossCutting", "4.1 - CrossCutting", "{A0452BA9-4C37-4E2A-9150-FF879FA1163E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.MVC", "ProjetoModeloDDD.MVC\ProjetoModeloDDD.MVC.csproj", "{41A57B21-8D25-4F1A-81E0-3313B456A2BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpModeloDDD.MVC", "ProjetoModeloDDD.MVC\CSharpModeloDDD.MVC.csproj", "{41A57B21-8D25-4F1A-81E0-3313B456A2BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.Domain", "ProjetoModeloDDD.Domain\ProjetoModeloDDD.Domain.csproj", "{984CB356-B992-441E-BF81-A36D1B30ADD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpModeloDDD.Domain", "ProjetoModeloDDD.Domain\CSharpModeloDDD.Domain.csproj", "{984CB356-B992-441E-BF81-A36D1B30ADD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.Infra.Data", "ProjetoModeloDDD.Infra.Data\ProjetoModeloDDD.Infra.Data.csproj", "{89389CAE-3B3A-4365-A012-D33AF64A829C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpModeloDDD.Infra.Data", "ProjetoModeloDDD.Infra.Data\CSharpModeloDDD.Infra.Data.csproj", "{89389CAE-3B3A-4365-A012-D33AF64A829C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.Application", "ProjetoModeloDDD.Application\ProjetoModeloDDD.Application.csproj", "{04BB3549-5197-4106-992A-BBF275A138C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpModeloDDD.Application", "ProjetoModeloDDD.Application\CSharpModeloDDD.Application.csproj", "{04BB3549-5197-4106-992A-BBF275A138C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,26 +59,7 @@ Global
 		{89389CAE-3B3A-4365-A012-D33AF64A829C} = {DF561DE9-E18F-4CCA-AF2D-8E583C255FAB}
 		{04BB3549-5197-4106-992A-BBF275A138C6} = {2DDFBD7C-E42E-4BB4-AC5A-898B27C26C05}
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://petterdesignweb.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ProjetoModeloDDD.Domain\\ProjetoModeloDDD.Domain.csproj
-		SccProjectTopLevelParentUniqueName1 = ProjetoModeloDDD.sln
-		SccProjectName1 = ProjetoModeloDDD.Domain
-		SccLocalPath1 = ProjetoModeloDDD.Domain
-		SccProjectUniqueName2 = ProjetoModeloDDD.Application\\ProjetoModeloDDD.Application.csproj
-		SccProjectTopLevelParentUniqueName2 = ProjetoModeloDDD.sln
-		SccProjectName2 = ProjetoModeloDDD.Application
-		SccLocalPath2 = ProjetoModeloDDD.Application
-		SccProjectUniqueName3 = ProjetoModeloDDD.Infra.Data\\ProjetoModeloDDD.Infra.Data.csproj
-		SccProjectTopLevelParentUniqueName3 = ProjetoModeloDDD.sln
-		SccProjectName3 = ProjetoModeloDDD.Infra.Data
-		SccLocalPath3 = ProjetoModeloDDD.Infra.Data
-		SccProjectUniqueName4 = ProjetoModeloDDD.MVC\\ProjetoModeloDDD.MVC.csproj
-		SccProjectTopLevelParentUniqueName4 = ProjetoModeloDDD.sln
-		SccProjectName4 = ProjetoModeloDDD.MVC
-		SccLocalPath4 = ProjetoModeloDDD.MVC
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27CAB047-E954-4687-AAEB-415F4B3A4AE7}
 	EndGlobalSection
 EndGlobal

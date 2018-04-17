@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ProjetoModeloDDD.Application.Interface
+namespace CSharpModeloDDD.Application.Interface
 {
     public interface IAppServiceBase<TEntity> where TEntity : class
     {

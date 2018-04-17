@@ -1,9 +1,9 @@
-﻿using ProjetoModeloDDD.MVC.AutoMapper;
+﻿using CSharpModeloDDD.MVC.AutoMapper;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace ProjetoModeloDDD.MVC
+namespace CSharpModeloDDD.MVC
 {
     public class MvcApplication : System.Web.HttpApplication
     {

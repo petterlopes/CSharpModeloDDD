@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using ProjetoModeloDDD.Application.Interface;
-using ProjetoModeloDDD.Domain.Entities;
-using ProjetoModeloDDD.MVC.ViewModels;
+using CSharpModeloDDD.Application.Interface;
+using CSharpModeloDDD.Domain.Entities;
+using CSharpModeloDDD.MVC.ViewModels;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
-namespace ProjetoModeloDDD.MVC.Controllers
+namespace CSharpModeloDDD.MVC.Controllers
 {
     public class ProdutosController : Controller
     {

@@ -12,8 +12,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProjetoModeloDDD.MVC</RootNamespace>
-    <AssemblyName>ProjetoModeloDDD.MVC</AssemblyName>
+    <RootNamespace>CSharpModeloDDD.MVC</RootNamespace>
+    <AssemblyName>CSharpModeloDDD.MVC</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
@@ -244,17 +244,17 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ProjetoModeloDDD.Application\ProjetoModeloDDD.Application.csproj">
+    <ProjectReference Include="..\ProjetoModeloDDD.Application\CSharpModeloDDD.Application.csproj">
       <Project>{04bb3549-5197-4106-992a-bbf275a138c6}</Project>
-      <Name>ProjetoModeloDDD.Application</Name>
+      <Name>CSharpModeloDDD.Application</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ProjetoModeloDDD.Domain\ProjetoModeloDDD.Domain.csproj">
+    <ProjectReference Include="..\ProjetoModeloDDD.Domain\CSharpModeloDDD.Domain.csproj">
       <Project>{984cb356-b992-441e-bf81-a36d1b30add0}</Project>
-      <Name>ProjetoModeloDDD.Domain</Name>
+      <Name>CSharpModeloDDD.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ProjetoModeloDDD.Infra.Data\ProjetoModeloDDD.Infra.Data.csproj">
+    <ProjectReference Include="..\ProjetoModeloDDD.Infra.Data\CSharpModeloDDD.Infra.Data.csproj">
       <Project>{89389cae-3b3a-4365-a012-d33af64a829c}</Project>
-      <Name>ProjetoModeloDDD.Infra.Data</Name>
+      <Name>CSharpModeloDDD.Infra.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

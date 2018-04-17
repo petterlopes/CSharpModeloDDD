@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using ProjetoModeloDDD.Domain.Entities;
-using ProjetoModeloDDD.MVC.ViewModels;
+using CSharpModeloDDD.Domain.Entities;
+using CSharpModeloDDD.MVC.ViewModels;
 
-namespace ProjetoModeloDDD.MVC.AutoMapper
+namespace CSharpModeloDDD.MVC.AutoMapper
 {
     public class ViewModelToDomainMappingProfile : Profile
     {

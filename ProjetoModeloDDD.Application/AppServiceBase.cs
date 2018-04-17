@@ -1,9 +1,9 @@
-﻿using ProjetoModeloDDD.Application.Interface;
-using ProjetoModeloDDD.Domain.Interfaces.Services;
+﻿using CSharpModeloDDD.Application.Interface;
+using CSharpModeloDDD.Domain.Interfaces.Services;
 using System;
 using System.Collections.Generic;
 
-namespace ProjetoModeloDDD.Application
+namespace CSharpModeloDDD.Application
 {
     public class AppServiceBase<TEntity> : IDisposable, IAppServiceBase<TEntity> where TEntity : class
     {

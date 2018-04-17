@@ -1,7 +1,7 @@
-﻿using ProjetoModeloDDD.Domain.Entities;
-using ProjetoModeloDDD.Domain.Interfaces.Repositories;
+﻿using CSharpModeloDDD.Domain.Entities;
+using CSharpModeloDDD.Domain.Interfaces.Repositories;
 
-namespace ProjetoModeloDDD.Infra.Data.Repositories
+namespace CSharpModeloDDD.Infra.Data.Repositories
 {
     public class ClienteRepository : RepositoryBase<Cliente>, IClienteRepository
     {

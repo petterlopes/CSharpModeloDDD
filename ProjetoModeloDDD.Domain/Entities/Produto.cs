@@ -1,4 +1,4 @@
-﻿namespace ProjetoModeloDDD.Domain.Entities
+﻿namespace CSharpModeloDDD.Domain.Entities
 {
     public class Produto
     {
