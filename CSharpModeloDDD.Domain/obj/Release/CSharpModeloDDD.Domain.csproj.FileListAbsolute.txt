@@ -1,0 +1,5 @@
+D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Domain\bin\Release\CSharpModeloDDD.Domain.dll
+D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Domain\bin\Release\CSharpModeloDDD.Domain.pdb
+D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Domain\obj\Release\CSharpModeloDDD.Domain.csproj.CoreCompileInputs.cache
+D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Domain\obj\Release\CSharpModeloDDD.Domain.dll
+D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Domain\obj\Release\CSharpModeloDDD.Domain.pdb

@@ -1,6 +1,0 @@
-D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Domain\bin\Debug\CSharpModeloDDD.Domain.dll
-D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Domain\bin\Debug\CSharpModeloDDD.Domain.pdb
-D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Domain\obj\Debug\CSharpModeloDDD.Domain.csprojResolveAssemblyReference.cache
-D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Domain\obj\Debug\CSharpModeloDDD.Domain.csproj.CoreCompileInputs.cache
-D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Domain\obj\Debug\CSharpModeloDDD.Domain.dll
-D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Domain\obj\Debug\CSharpModeloDDD.Domain.pdb
