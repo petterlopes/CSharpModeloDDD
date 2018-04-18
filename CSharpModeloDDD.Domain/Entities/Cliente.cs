@@ -15,6 +15,10 @@ namespace CSharpModeloDDD.Domain.Entities
 
         public bool ClienteEspecial(Cliente cliente)
         {
+            if (!cliente.Ativo)
+            {
+                return false;
+            }
             return cliente.Ativo && DateTime.Now.Year - cliente.DataCadastro.Year >= 5;
         }
     }

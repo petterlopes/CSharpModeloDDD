@@ -7,12 +7,3 @@ D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Application\obj\Release\CSharpModeloDDD.
 D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Application\obj\Release\CSharpModeloDDD.Application.csproj.CopyComplete
 D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Application\obj\Release\CSharpModeloDDD.Application.dll
 D:\GIT\CSharpModeloDDD\ProjetoModeloDDD.Application\obj\Release\CSharpModeloDDD.Application.pdb
-D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Release\CSharpModeloDDD.Application.csprojResolveAssemblyReference.cache
-D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Release\CSharpModeloDDD.Application.csproj.CoreCompileInputs.cache
-D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Release\CSharpModeloDDD.Application.dll
-D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Release\CSharpModeloDDD.Application.pdb
-D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\bin\Release\CSharpModeloDDD.Application.dll
-D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\bin\Release\CSharpModeloDDD.Application.pdb
-D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\bin\Release\CSharpModeloDDD.Domain.dll
-D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\bin\Release\CSharpModeloDDD.Domain.pdb
-D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Release\CSharpModeloDDD.Application.csproj.CopyComplete
