@@ -2,10 +2,11 @@ D:\GIT\CSharpModeloDDD\FWConsole\bin\Debug\FWConsole.exe.config
 D:\GIT\CSharpModeloDDD\FWConsole\bin\Debug\FWConsole.exe
 D:\GIT\CSharpModeloDDD\FWConsole\bin\Debug\FWConsole.pdb
 D:\GIT\CSharpModeloDDD\FWConsole\bin\Debug\CSharpModeloDDD.Domain.dll
-D:\GIT\CSharpModeloDDD\FWConsole\bin\Debug\System.Management.Automation.dll
 D:\GIT\CSharpModeloDDD\FWConsole\bin\Debug\CSharpModeloDDD.Domain.pdb
 D:\GIT\CSharpModeloDDD\FWConsole\obj\Debug\FWConsole.csprojResolveAssemblyReference.cache
 D:\GIT\CSharpModeloDDD\FWConsole\obj\Debug\FWConsole.csproj.CoreCompileInputs.cache
 D:\GIT\CSharpModeloDDD\FWConsole\obj\Debug\FWConsole.csproj.CopyComplete
 D:\GIT\CSharpModeloDDD\FWConsole\obj\Debug\FWConsole.exe
 D:\GIT\CSharpModeloDDD\FWConsole\obj\Debug\FWConsole.pdb
+D:\GIT\CSharpModeloDDD\FWConsole\bin\Debug\System.Management.Automation.dll
+D:\GIT\CSharpModeloDDD\FWConsole\bin\Debug\Inject.dll

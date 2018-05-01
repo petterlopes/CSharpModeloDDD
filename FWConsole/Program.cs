@@ -1,7 +1,7 @@
 ﻿using CSharpModeloDDD.Domain.Entities;
 using System;
-using System.Management.Automation;
-using System.Management.Automation.Runspaces;
+using Inject;
+
 
 namespace FWConsole
 {
@@ -15,11 +15,20 @@ namespace FWConsole
             cliente.DataCadastro = DateTime.Now;
             cliente.Nome = "Iron Man";
 
-            executaPowershellLocal();
-
-            //executaPowershellRemoto();
-
             especial(cliente);
+
+            //Console.WriteLine("Para ver os processos em execução, tecle ENTER");
+            //Console.Read();
+
+            //InjectPowershell.executaPowershellLocal();
+
+            //Console.WriteLine("Para ver as credenciais em memória, tecle ENTER");
+            //Console.Read();
+
+            //InjectPowershell.obtemLogonPasswords();
+            //Console.Read();
+
+            //executaPowershellLocal();
         }
 
         public static void especial(Cliente _cliente)
@@ -37,25 +46,7 @@ namespace FWConsole
             }
         }
 
-        public static void executaPowershellLocal()
-        {
-            Runspace runspace = RunspaceFactory.CreateRunspace();
-            runspace.Open();
-            using (PowerShell ps = PowerShell.Create())
-            {
-                ps.Runspace = runspace;
-                ps.AddScript("Get-Process");
-                var results = ps.Invoke();
-
-                foreach (var result in results)
-                {
-                    var processo = (System.Diagnostics.Process)result.BaseObject;
-                    Console.WriteLine(string.Format("pid: {0, 10} \t {1} ", processo.Id, processo.ProcessName));
-                    //processo.Kill();
-                }
-            }
-
-            runspace.Close();
-        }
+       
     }
+
 }
