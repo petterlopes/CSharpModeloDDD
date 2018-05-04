@@ -2,6 +2,7 @@
 using CSharpModeloDDD.Domain.Entities;
 using CSharpModeloDDD.Domain.Interfaces.Services;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CSharpModeloDDD.Application
 {
@@ -15,9 +16,9 @@ namespace CSharpModeloDDD.Application
             _clienteService = clienteService;
         }
 
-        public IEnumerable<Cliente> ObterClientesEspeciais()
+        public async Task<IEnumerable<Cliente>> ObterClientesEspeciais()
         {
-            return _clienteService.ObterClientesEspeciais(_clienteService.GetAll());
+            return _clienteService.ObterClientesEspeciais( await _clienteService.GetAll());
         }
     }
 }

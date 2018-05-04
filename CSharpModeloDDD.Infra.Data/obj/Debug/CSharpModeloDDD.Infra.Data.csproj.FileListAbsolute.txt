@@ -26,3 +26,5 @@ D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Infra.Data\bin\Debug\CSharpModeloDDD.Doma
 D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Infra.Data\bin\Debug\EntityFramework.xml
 D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
 D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Infra.Data\obj\Debug\CSharpModeloDDD.Infra.Data.csproj.CopyComplete
+D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Infra.Data\bin\Debug\Antlr3.Runtime.dll
+D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Infra.Data\bin\Debug\Antlr3.Runtime.pdb

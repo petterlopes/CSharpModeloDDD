@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CSharpModeloDDD.Domain.Interfaces.Repositories
 {
@@ -8,7 +9,7 @@ namespace CSharpModeloDDD.Domain.Interfaces.Repositories
 
         TEntity GetById(int id);
 
-        IEnumerable<TEntity> GetAll();
+        Task<IEnumerable<TEntity>> GetAll();
 
         void Update(TEntity obj);
 

@@ -3,6 +3,7 @@ using CSharpModeloDDD.Application.Interface;
 using CSharpModeloDDD.Domain.Entities;
 using CSharpModeloDDD.MVC.ViewModels;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 
 namespace CSharpModeloDDD.MVC.Controllers
@@ -21,9 +22,9 @@ namespace CSharpModeloDDD.MVC.Controllers
         }
 
         // GET: Cliente
-        public ActionResult Index()
+        public async Task<ActionResult> Index()
         {
-            var produtoViewModel = Mapper.Map<IEnumerable<Produto>, IEnumerable<ProdutoViewModel>>(_produtoApp.GetAll());
+            var produtoViewModel = Mapper.Map<IEnumerable<Produto>, IEnumerable<ProdutoViewModel>>(await _produtoApp.GetAll());
 
             return View(produtoViewModel);
         }
@@ -38,16 +39,16 @@ namespace CSharpModeloDDD.MVC.Controllers
         }
 
         // GET: Cliente/Create
-        public ActionResult Create()
+        public async Task<ActionResult> Create()
         {
-            ViewBag.ClienteId = new SelectList(_clienteApp.GetAll(), "ClienteId", "Nome");
+            ViewBag.ClienteId = new SelectList( await _clienteApp.GetAll(), "ClienteId", "Nome");
             return View();
         }
 
         // POST: Cliente/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(ProdutoViewModel produto)
+        public async Task<ActionResult> Create(ProdutoViewModel produto)
         {
             if (ModelState.IsValid)
             {
@@ -57,17 +58,17 @@ namespace CSharpModeloDDD.MVC.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.ClienteId = new SelectList(_clienteApp.GetAll(), "ClienteId", "Nome", produto.ClienteId);
+            ViewBag.ClienteId = new SelectList(await _clienteApp.GetAll(), "ClienteId", "Nome", produto.ClienteId);
             return View(produto);
         }
 
         // GET: Cliente/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(int id)
         {
             var produto = _produtoApp.GetById(id);
             var produtoViewModel = Mapper.Map<Produto, ProdutoViewModel>(produto);
 
-            ViewBag.ClienteId = new SelectList(_clienteApp.GetAll(), "ClienteId", "Nome", produtoViewModel.ClienteId);
+            ViewBag.ClienteId = new SelectList(await _clienteApp.GetAll(), "ClienteId", "Nome", produtoViewModel.ClienteId);
 
             return View(produtoViewModel);
         }
@@ -75,7 +76,7 @@ namespace CSharpModeloDDD.MVC.Controllers
         // POST: Cliente/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(ProdutoViewModel produto)
+        public async Task<ActionResult> Edit(ProdutoViewModel produto)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +86,7 @@ namespace CSharpModeloDDD.MVC.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.ClienteId = new SelectList(_clienteApp.GetAll(), "ClienteId", "Nome", produto.ClienteId);
+            ViewBag.ClienteId = new SelectList(await _clienteApp.GetAll(), "ClienteId", "Nome", produto.ClienteId);
             return View(produto);
         }
 

@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace CSharpModeloDDD.Infra.Data.Repositories
 {
@@ -22,9 +23,9 @@ namespace CSharpModeloDDD.Infra.Data.Repositories
             return Db.Set<TEntity>().Find(id);
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public async Task<IEnumerable<TEntity>> GetAll()
         {
-            return Db.Set<TEntity>().ToList();
+            return await Db.Set<TEntity>().ToListAsync();
         }
 
         public void Update(TEntity obj)

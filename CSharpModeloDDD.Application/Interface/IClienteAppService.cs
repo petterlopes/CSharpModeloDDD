@@ -1,10 +1,11 @@
 ﻿using CSharpModeloDDD.Domain.Entities;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CSharpModeloDDD.Application.Interface
 {
     public interface IClienteAppService : IAppServiceBase<Cliente>
     {
-        IEnumerable<Cliente> ObterClientesEspeciais();
+        Task<IEnumerable<Cliente>> ObterClientesEspeciais();
     }
 }

@@ -94,3 +94,5 @@ D:\GIT\CSharpModeloDDD\CSharpModeloDDD.MVC\obj\Debug\CSharpModeloDDD.MVC.csproj.
 D:\GIT\CSharpModeloDDD\CSharpModeloDDD.MVC\obj\Debug\CSharpModeloDDD.MVC.csproj.CopyComplete
 D:\GIT\CSharpModeloDDD\CSharpModeloDDD.MVC\obj\Debug\CSharpModeloDDD.MVC.dll
 D:\GIT\CSharpModeloDDD\CSharpModeloDDD.MVC\obj\Debug\CSharpModeloDDD.MVC.pdb
+D:\GIT\CSharpModeloDDD\CSharpModeloDDD.MVC\bin\EntityFramework.SqlServer.dll
+D:\GIT\CSharpModeloDDD\CSharpModeloDDD.MVC\bin\EntityFramework.SqlServer.xml

@@ -3,6 +3,7 @@ using CSharpModeloDDD.Application.Interface;
 using CSharpModeloDDD.Domain.Entities;
 using CSharpModeloDDD.MVC.ViewModels;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 
 namespace CSharpModeloDDD.MVC.Controllers
@@ -17,15 +18,15 @@ namespace CSharpModeloDDD.MVC.Controllers
         }
 
         // GET: Clientes
-        public ActionResult Index()
+        public async Task<ActionResult> Index()
         {
-            var clienteViewModel = Mapper.Map<IEnumerable<Cliente>, IEnumerable<ClienteViewModel>>(_clienteApp.GetAll());
+            var clienteViewModel = Mapper.Map<IEnumerable<Cliente>, IEnumerable<ClienteViewModel>>(await _clienteApp.GetAll());
             return View(clienteViewModel);
         }
 
-        public ActionResult Especiais()
+        public async Task<ActionResult> Especiais()
         {
-            var clienteViewModel = Mapper.Map<IEnumerable<Cliente>, IEnumerable<ClienteViewModel>>(_clienteApp.ObterClientesEspeciais());
+            var clienteViewModel = Mapper.Map<IEnumerable<Cliente>, IEnumerable<ClienteViewModel>>(await _clienteApp.ObterClientesEspeciais());
 
             return View(clienteViewModel);
         }

@@ -2,6 +2,7 @@
 using CSharpModeloDDD.Domain.Interfaces.Services;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CSharpModeloDDD.Domain.Services
 {
@@ -24,9 +25,9 @@ namespace CSharpModeloDDD.Domain.Services
             return _repository.GetById(id);
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public async Task<IEnumerable<TEntity>> GetAll()
         {
-            return _repository.GetAll();
+            return await _repository.GetAll();
         }
 
         public void Update(TEntity obj)
