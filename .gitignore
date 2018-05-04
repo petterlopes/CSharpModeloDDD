@@ -6,3 +6,15 @@
 /.vs/CSharpModeloDDD/v15/Server/sqlite3
 /Inject/obj/Debug
 /Inject/bin/Debug
+/CSharpModeloDDD.MVC/bin
+/CoreConsole/bin/Debug/netcoreapp2.0
+/CoreConsole/obj
+/FWConsole/bin/Debug
+/FWConsole/obj/Debug
+/CSharpModeloDDD.MVC/obj/Debug
+/CSharpModeloDDD.Infra.Data/bin/Debug
+/CSharpModeloDDD.Infra.Data/obj/Debug
+/CSharpModeloDDD.Domain/obj/Debug
+/CSharpModeloDDD.Domain/bin/Debug
+/CSharpModeloDDD.Application/obj/Debug
+/CSharpModeloDDD.Application/bin/Debug
