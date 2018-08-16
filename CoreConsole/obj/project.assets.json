@@ -210,7 +210,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.App/2.0.0": {
-      "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
+      "sha512": "2HgwPRIXCr7/xPFSh8KsDrMllGKcz8xrNtTbaEZ04zntCDpVeVHZdkxWlpxTgPaxfKW/dfr1LMwZMgo3aUJaLw==",
       "type": "package",
       "path": "microsoft.netcore.app/2.0.0",
       "files": [
@@ -488,7 +488,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.0.0": {
-      "sha512": "L4GGkcI/Mxl8PKLRpFdGmLb5oI8sGIR05bDTGkzCoamAjdUl1Zhkov2swjEsZvKYT8kkdiz39LtwyGYuCJxm1A==",
+      "sha512": "hiuSt4IOCrYrBHdk8sKOkZqbVXCRQkuegC1Ciicrj71xFR463fMNSuLVbkO1nxtaFybsKBdqf1ufKo+yr0u3YQ==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.0.0",
       "files": [
@@ -500,7 +500,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/2.0.0": {
-      "sha512": "rm7mMn0A93fwyAwVhbyOCcPuu2hZNL0A0dAur9sNG9pEkONPfCEQeF7m2mC8KpqZO0Ol6tpV5J0AF3HTXT3GXA==",
+      "sha512": "IJXI2250xdh5v0rPME6+35qtV2SRw8Glfu6ABrUct31bVHLg4bJxOvXIGpp8yShhB2TiHEo0J9tkN4cEminD+Q==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/2.0.0",
       "files": [
@@ -512,7 +512,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostResolver/2.0.0": {
-      "sha512": "uBbjpeSrwsaTCADZCzRk+3aBzNnMqkC4zftJWBsL+Zk+8u+W+/lMb2thM5Y4hiVrv1YQg9t6dKldXzOKkY+pQw==",
+      "sha512": "WcwxuPNZa502pai6g6eh01xCCaXTP5P7FD3+bHFDFPvD5hDu1+uOsFM7/7B6D/0t5+e0bQDvGj7X/NY3L+dQjQ==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostresolver/2.0.0",
       "files": [
@@ -524,22 +524,22 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.0.0": {
-      "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "sha512": "aObgthr4ASA71rh5ZwnEcnEDrX8T2NKkOZ/r/QHYy1AulCRDceYCJ4vCpkFqe5SgxE65KSU4qp2msbeLPu0OGg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.0.0",
       "files": [
         "LICENSE.TXT",
-        "Microsoft.NETCore.Platforms.2.0.0.nupkg.sha512",
-        "Microsoft.NETCore.Platforms.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
     "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "sha512": "fik7b3lD6zwFSX3jR4xbfy3X4Tu1Va1b9G2Al0ar8U34h4kNGQNR+1HxokGlTagZNuYceF7iDXR5jbqoc18q4g==",
       "type": "package",
       "path": "netstandard.library/2.0.0",
       "files": [
@@ -680,7 +680,6 @@
   },
   "packageFolders": {
     "C:\\Users\\Petter Lopes\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -693,13 +692,11 @@
       "outputPath": "D:\\GIT\\CSharpModeloDDD\\CoreConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Petter Lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
