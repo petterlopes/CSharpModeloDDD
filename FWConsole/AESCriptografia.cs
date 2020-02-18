@@ -5,7 +5,7 @@ namespace FWConsole
 {
     public class AESCriptografia
     {
-        public static byte[] EncryptStringToBytes_Aes(string plainText, byte[] Key,byte[] IV)
+        public static byte[] EncryptStringToBytes_Aes(string plainText, byte[] Key, byte[] IV)
         {
             byte[] encrypted;
             using (Aes aesAlg = Aes.Create())
@@ -14,7 +14,7 @@ namespace FWConsole
                 aesAlg.IV = IV;
 
                 ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
-                
+
                 using (MemoryStream msEncrypt = new MemoryStream())
                 {
                     using (CryptoStream csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))

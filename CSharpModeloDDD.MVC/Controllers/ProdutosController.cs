@@ -41,7 +41,7 @@ namespace CSharpModeloDDD.MVC.Controllers
         // GET: Cliente/Create
         public async Task<ActionResult> Create()
         {
-            ViewBag.ClienteId = new SelectList( await _clienteApp.GetAll(), "ClienteId", "Nome");
+            ViewBag.ClienteId = new SelectList(await _clienteApp.GetAll(), "ClienteId", "Nome");
             return View();
         }
 

@@ -18,7 +18,7 @@ namespace CSharpModeloDDD.Application
 
         public async Task<IEnumerable<Cliente>> ObterClientesEspeciais()
         {
-            return _clienteService.ObterClientesEspeciais( await _clienteService.GetAll());
+            return _clienteService.ObterClientesEspeciais(await _clienteService.GetAll());
         }
     }
 }

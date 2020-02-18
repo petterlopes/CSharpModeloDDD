@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CoreConsole/1.0.0": {
+        "dependencies": {
+          "CSharpModeloDDD.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CoreConsole.dll": {}
+        }
+      },
+      "CSharpModeloDDD.Domain/1.0.0": {
+        "runtime": {
+          "CSharpModeloDDD.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSharpModeloDDD.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

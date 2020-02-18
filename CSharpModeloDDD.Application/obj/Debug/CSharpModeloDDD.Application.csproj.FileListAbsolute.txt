@@ -16,3 +16,11 @@ D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Debug\CSharpModeloDDD.App
 D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Debug\CSharpModeloDDD.Application.csproj.CopyComplete
 D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Debug\CSharpModeloDDD.Application.dll
 D:\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Debug\CSharpModeloDDD.Application.pdb
+D:\VS\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\bin\Debug\CSharpModeloDDD.Application.dll
+D:\VS\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\bin\Debug\CSharpModeloDDD.Application.pdb
+D:\VS\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\bin\Debug\CSharpModeloDDD.Domain.dll
+D:\VS\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\bin\Debug\CSharpModeloDDD.Domain.pdb
+D:\VS\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Debug\CSharpModeloDDD.Application.csprojAssemblyReference.cache
+D:\VS\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Debug\CSharpModeloDDD.Application.csproj.CopyComplete
+D:\VS\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Debug\CSharpModeloDDD.Application.dll
+D:\VS\GIT\CSharpModeloDDD\CSharpModeloDDD.Application\obj\Debug\CSharpModeloDDD.Application.pdb

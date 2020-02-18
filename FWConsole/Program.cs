@@ -1,6 +1,5 @@
 ﻿using CSharpModeloDDD.Domain.Entities;
 using System;
-using Inject;
 
 
 namespace FWConsole
@@ -46,7 +45,7 @@ namespace FWConsole
             }
         }
 
-       
+
     }
 
 }
